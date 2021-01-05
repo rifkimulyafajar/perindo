@@ -10,7 +10,7 @@
                                     <img width="154px" height="40px" src="<?php echo base_url('asset/user/img/logo2.png'); ?>" alt="">
                                 </a>
                             </div>
-                            <p>
+                            <p style="text-align: justify;">
                                 Firmament morning sixth subdue darkness creeping gathered divide our let god moving.
                                 Moving in fourth air night bring upon it beast let you dominion likeness open place day
                                 great.
@@ -93,7 +93,7 @@
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> - Perum Perikanan Indonesia Cabang Brondong. | This template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy; 2020 - <script>document.write(new Date().getFullYear());</script> - Perum Perikanan Indonesia Cabang Brondong. | This template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>

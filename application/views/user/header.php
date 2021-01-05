@@ -42,16 +42,15 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-5">
+                        <div class="col-xl-8 col-lg-5">
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="<?php echo base_url(); ?>">Home</a></li>
-                                        <li><a href="<?php echo base_url('user/berita'); ?>">Berita</a></li>
-                                        <li><a href="<?php echo base_url('user/artikel'); ?>">Artikel</a></li>
-                                        <li><a href="<?php echo base_url('user/donasi'); ?>">Donasi</a></li>
-                                        <li><a href="<?php echo base_url('user/kalendar'); ?>">Kalendar Kesuburan</a></li>
-                                        <li><a href="<?php echo base_url('user/diskusi'); ?>">Diskusi</a></li>
+                                        <li><a href="<?php echo base_url('user/berita'); ?>">Profil</a></li>
+                                        <li><a href="#">Produk</a></li>
+                                        <li><a href="#">Gallery</a></li>
+                                        <!-- <li><a href="#"></a></li> -->
                                         <!-- <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="#">course details</a></li>

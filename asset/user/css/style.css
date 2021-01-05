@@ -2562,7 +2562,7 @@ h3 {
 
 /* line 16, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
 .our_courses .single_course {
-  border: 1px solid #E8E8E8;
+  border: 2px solid #E8E8E8;
   padding: 38px 30px;
   position: relative;
   margin-bottom: 30px;
@@ -2571,7 +2571,7 @@ h3 {
 
 /* line 23, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
 .our_courses .single_course .icon i {
-  color: #FD8E5E;
+  color: #14EDE2;
   font-size: 45px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -2615,7 +2615,7 @@ h3 {
 /* line 53, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
 .our_courses .single_course:before {
   position: absolute;
-  background: #FD8E5E;
+  background: #7FFFD4;
   bottom: 0;
   left: 0;
   width: 100%;
