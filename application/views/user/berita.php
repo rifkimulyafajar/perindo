@@ -1,5 +1,5 @@
         <div class="bradcam_area breadcam_bg overlay2">
-            <h3>Profil Perusahaan</h3>
+            <h3>Berita Hari Ini</h3>
         </div>
         <!-- bradcam_area_end -->
 
@@ -9,17 +9,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
-                            <nav aria-label="breadcrumb">
-                              <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Profil Perusahaan</li>
-                              </ol>
-                            </nav>
                             <div class="section_title text-center mb-100">
                                 <img src="<?php echo base_url('asset/user/img/berita.jpg') ?>" width=100 height=100>
                                 <h3>Ini Berita</h3>
                                 <p>
-                                    Berita - berita yang mungkin menarik untuk anda baca.
+                                    Berita - berita tentang Perum Perindo Cabang Brondong yang mungkin menarik untuk anda baca.
                                 </p>
                             </div>
                         </div>

@@ -125,13 +125,37 @@ class User extends CI_Controller
 
 	// =========================================================================
 
-	public function kalendar()
+	public function profil()
 	{
 		# code...
-		$data['title'] = "Kalendar Kesuburan";
+		$data['title'] = "Profil Perusahaan";
 
 		$this->load->view('user/header', $data);
-		$this->load->view('user/kalendar');
+		$this->load->view('user/profil');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
+	public function produk()
+	{
+		# code...
+		$data['title'] = "Produk dan Jasa";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/produk');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
+	public function gallery()
+	{
+		# code...
+		$data['title'] = "Gallery";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/gallery');
 		$this->load->view('user/footer');
 	}
 

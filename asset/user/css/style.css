@@ -89,7 +89,7 @@ button {
 /* line 38, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Poppins", sans-serif;
-  color: #f3f3f3;
+  color: #5e5e5e;
 }
 
 /* line 42, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
@@ -118,7 +118,7 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  color: #919191;
+  color: #5e5e5e;
   margin-bottom: 13px;
   font-family: "Crimson Text", serif;
 }
@@ -1636,7 +1636,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
 .footer_bg_1 {
-  background-image: url(../img/sea.jpg);
+  background-image: url(../img/banner/bradcam3.png);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
@@ -1876,7 +1876,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/bradcam4.png);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
@@ -2615,7 +2615,7 @@ h3 {
 /* line 53, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
 .our_courses .single_course:before {
   position: absolute;
-  background: #7FFFD4;
+  background: #66adff;
   bottom: 0;
   left: 0;
   width: 100%;

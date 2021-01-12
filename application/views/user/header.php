@@ -32,7 +32,7 @@
             <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid p-0">
                     <div class="row align-items-center no-gutters">
-                        <div class="col-xl-2 col-lg-2">
+                        <div class="col-xl-3 col-lg-3">
                             <div class="logo-img">
                                 <a href="index.html">
                                 <img width="154px" height="40px" src="<?php echo base_url('asset/user/img/logo2.png'); ?>" alt="">
@@ -59,27 +59,11 @@
                                             </ul>
                                         </li>
                                         <li><a href="<?php echo base_url('user/produk')?>">Produk dan Jasa</a></li>
-                                        <li><a href="<?php echo base_url('user/berita'); ?>">Berita</a></li>
+                                        <li><a href="<?php echo base_url('user/berita');?>">Berita</a></li>
+                                        <li><a href="<?php echo base_url('user/gallery');?>">Gallery</a></li>
                                     </ul>
                                 </nav>
                             </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                            <div class="log_chat_area d-flex align-items-center">
-                                <a href="#test-form" class="login popup-with-form">
-                                    <i class="flaticon-user"></i>
-                                    <span>log in</span>
-                                </a>
-                                <div class="live_chat_btn">
-                                    <a class="boxed_btn_orange" href="#">
-                                        <i class="fa fa-phone"></i>
-                                        <span>+10 378 467 3672</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
                     </div>
                 </div>

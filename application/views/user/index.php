@@ -2,13 +2,13 @@
 <div class="ism-slider" data-transition_type="fade" id="my-slider">
   <ol>
     <li>
-      <img src="<?php base_url()?>assets/ism/image/1609993337266_642147.png">
+      <img src="<?php echo base_url()?>assets/ism/image/1609993337266_642147.png">
     </li>
     <li>
-      <img src="<?php base_url()?>assets/ism/image/1609993072358_716372.jpg">
+      <img src="<?php echo base_url()?>assets/ism/image/1609993072358_716372.jpg">
     </li>
     <li>
-      <img src="<?php base_url()?>assets/ism/image/1609992902293_288606.png">
+      <img src="<?php echo base_url()?>assets/ism/image/1609992902293_288606.png">
     </li>
   </ol>
 </div>
