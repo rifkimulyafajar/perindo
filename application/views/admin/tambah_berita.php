@@ -37,8 +37,10 @@
                 </div>
                 <div class="form-group">
                     <label for="konten">Konten</label>
-                    <input type="text" class="form-control" id="konten" name="konten">
-                </div>
+	            <textarea id="ckeditor" name="konten" id="konten" class="form-control" required></textarea><br/>
+		        </div>
+		
+	
                 <button type="submit" name="submit" class="btn btn-primary float-right">Submit</button>
             </form>
         </div>

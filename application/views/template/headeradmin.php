@@ -7,9 +7,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="<?php echo base_url('assetsadmin/images/favicon.ico') ?>" type="image/ico" />
+    <link rel="icon" href="<?php echo base_url('asset/user/img/logo2.png') ?>" type="image/ico" />
+   
 
-    <title><?= $title ?></title>
+    <title>Perumahan Perikanan Indonesia | <?= $title ?></title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="<?php echo base_url('assetsadmin/vendors/bootstrap/dist/css/bootstrap.min.css') ?>">

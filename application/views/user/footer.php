@@ -11,9 +11,7 @@
                                 </a>
                             </div>
                             <p style="text-align: justify;">
-                                Firmament morning sixth subdue darkness creeping gathered divide our let god moving.
-                                Moving in fourth air night bring upon it beast let you dominion likeness open place day
-                                great.
+                            Perum Perikanan Indonesia merupakan salah satu Badan Usaha Milik Negara (BUMN) bidang pembangunan dan pengembangan sektor kelautan dan perikanan.
                             </p>
                             <div class="socail_links">
                                 <ul>
@@ -93,7 +91,7 @@
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy; 2020 - <script>document.write(new Date().getFullYear());</script> - Perum Perikanan Indonesia Cabang Brondong. | This template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy; 2020 - <script>document.write(new Date().getFullYear());</script> - Perum Perikanan Indonesia Cabang Brondong.
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>

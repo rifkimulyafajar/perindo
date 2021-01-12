@@ -38,7 +38,7 @@
                 </div>
                 <div class="form-group">
                     <label for="konten">Konten</label>
-                    <input type="text" class="form-control" id="konten" name="konten" value="<?= $berita['konten']; ?>">
+                    <textarea style="width:600px; height:450px" class="ckeditor" id="konten" name="konten"><?php echo $berita['konten'] ?></textarea>
                 </div>
                 <button type="submit" name="submit" class="btn btn-primary float-right">Edit</button>
             </form>
