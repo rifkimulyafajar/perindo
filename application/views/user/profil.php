@@ -20,7 +20,7 @@
 	            <div class="row">
 	            	<div class="col-xl-1"></div>
 	            	<div class="col-xl-1">
-	            		<img src="<?php echo base_url('asset/user/img/icon/ophtalmology.png') ?>">
+	            		<img src="<?php echo base_url('asset/user/img/icon/ophtalmology.png') ?>" width="50px" height="50px">
 	            	</div>
 	            	<div class="col-xl-4">
 	            		<div class="section_title">
@@ -31,7 +31,7 @@
 	            		</div>
 	            	</div>
 	            	<div class="col-xl-1">
-	            		<img src="<?php echo base_url('asset/user/img/icon/target.png') ?>">
+	            		<img src="<?php echo base_url('asset/user/img/icon/target.png') ?>" width="50px" height="50px">
 	            	</div>
 	            	<div class="col-xl-4">
 	            		<div class="section_title">

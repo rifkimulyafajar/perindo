@@ -3702,7 +3702,7 @@ sup,
 sub,
 u,
 del {
-  color: #ff5e13;
+  color: #13A9FF;
 }
 
 /* line 93, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_elements.scss */
@@ -4208,7 +4208,7 @@ h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #ff5e13;
+  border: 3px solid #13A9FF;
   background: #fff;
   top: 4px;
   left: 0;
