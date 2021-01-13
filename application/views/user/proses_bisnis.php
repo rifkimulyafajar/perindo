@@ -1,5 +1,5 @@
 		<div class="bradcam_area breadcam_bg overlay2">
-            <h3>Produk dan Jasa</h3>
+            <h3>Proses Bisnis</h3>
         </div>
         <!-- bradcam_area_end -->
 
@@ -8,8 +8,8 @@
 	            <div class="row">
 	                <div class="col-xl-12">
 	                    <div class="section_title text-center mb-100">
-	                    	<img src="<?php echo base_url('asset/user/img/icon/box.png') ?>"> <br><br>
-	                        <h3>Produk dan Jasa</h3>
+	                    	<img src="<?php echo base_url('asset/user/img/icon/planning.png') ?>"> <br><br>
+	                        <h3>Proses Bisnis</h3>
 	                        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 	                        </p>
 	                    </div>

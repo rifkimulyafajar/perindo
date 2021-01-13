@@ -8,15 +8,44 @@
 	            <div class="row">
 	                <div class="col-xl-12">
 	                    <div class="section_title text-center mb-100">
-	                    	<img src="<?php echo base_url('asset/user/img/kalendar.png') ?>" width=100 height=100>
-	                        <h3>Profil Perusahaan</h3>
-	                        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+	                    	<img src="<?php echo base_url('asset/user/img/icon/website.png') ?>"> <br><br>
+	                        <h3>Perusahaan Umum (PERUM) Perikanan Indonesia Cabang Brondong</h3>
+	                        <p>Perusahaan Umum Perikanan  Indonesia (Perum Perindo)  yang sebelumnya bernama  Perusahaan Umum Prasarana  Perikanan Samudera (Perum PPS)  merupakan Badan Usaha Milik  Negara (BUMN) yang didirikan  berdasarkan Peraturan Pemerintah  (PP) Nomor 2 Tahun 1990 Tentang Perusahaan Umum (Perum) Prasarana Perikanan Samudera, yang  diatur kembali dengan Peraturan  Pemerintah Nomor 23 Tahun 2000 Tentang Perusahaan Umum (Perum) Prasarana Perikanan Samudera.</p> <br>
+
+							<p>Berdasarkan PP No.9/2013 Perum  Perindo memiliki tugas dan  tanggung jawab mengelola aset  Negara guna menyelenggarakan  pengusahaan dan pelayanan barang  jasa dan memupuk keuntungan serta  pengembangan sistem bisnis  perikanan kepada pengguna jasa  pelabuhan perikanan yaitu nelayan  pada khususnya dan masyarakat  perikanan pada umumnya.
 	                        </p>
 	                    </div>
 	                </div>
-
-	                <!-- konten -->
-
+	            </div>
+	            <div class="row">
+	            	<div class="col-xl-1"></div>
+	            	<div class="col-xl-1">
+	            		<img src="<?php echo base_url('asset/user/img/icon/ophtalmology.png') ?>">
+	            	</div>
+	            	<div class="col-xl-4">
+	            		<div class="section_title">
+	            			<ul class="unordered-list" style="text-align: justify;">
+		            			<h3>VISI</h2>
+		            			Menjadi Perusahaan Perikanan yang  Tangguh, Terpercaya dan Penggerak  Pertumbuhan Ekonomi.
+		            		</ul>
+	            		</div>
+	            	</div>
+	            	<div class="col-xl-1">
+	            		<img src="<?php echo base_url('asset/user/img/icon/target.png') ?>">
+	            	</div>
+	            	<div class="col-xl-4">
+	            		<div class="section_title">
+	            			<ul class="unordered-list" style="text-align: justify;">
+		            			<h3 class="text-heading">MISI</h3>
+		            			<li>Berperan aktif dalam pembangunan perekonomian nasional di sektor perikanan dan kelautan;</li>
+		            			<li>Menyediakan fasilitas barang dan jasa guna mendukung pelayanan prima;</li>
+		            			<li>Mengembangkan sistem bisnis perikanan;</li>
+		            			<li>Memiliki sumber daya manusia (SDM) yang profesional;</li>
+		            			<li>Mengelola perusahaan  berdasarkan Prinsip Good  Corporate Governance (GCG).</li>
+		            		</ul>
+	            		</div>
+	            	</div>
+	            	<div class="col-xl-1"></div>
 	            </div>
 	        </div>
 	    </div>

@@ -47,12 +47,10 @@
                                         <li><a href="#">Tentang Kami <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="<?php echo base_url('user/profil')?>">Profil Perusahaan</a></li>
-                                                <li><a href="<?php echo base_url('user/visi_misi')?>">Visi Misi</a></li>
-                                                <li><a href="<?php echo base_url('user/budaya_kerja') ?>">Budaya Perusahaan</a></li>
+                                                <li><a href="<?php echo base_url('user/budaya_kerja') ?>">Budaya Kerja</a></li>
                                                 <li><a href="<?php echo base_url('user/proses_bisnis')?>">Proses Bisnis</a></li>
                                                 <li><a href="<?php echo base_url('user/wilayah_kerja')?>">Wilayah Kerja</a></li>
-                                                <li><a href="<?php echo base_url('user/wilayah_kerja')?>">Pelabuhan & Fasilitas</a></li>
-                                                <li><a href="<?php echo base_url('user/wilayah_kerja')?>">Wilayah Kerja</a></li>
+                                                <li><a href="<?php echo base_url('user/pelabuhan')?>">Pelabuhan & Fasilitas</a></li>
                                                 <li><a href="<?php echo base_url('user/produksi')?>">Produksi & Destribusi</a></li>
                                                 <li><a href="<?php echo base_url('user/fasilitas')?>">Fasilitas & Unit Produksi</a></li>
                                                 <li><a href="<?php echo base_url('user/masterplan')?>">Master Plan PPN Brondong</a></li>

@@ -10,7 +10,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="section_title text-center mb-100">
-                                <img src="<?php echo base_url('asset/user/img/berita.jpg') ?>" width=100 height=100>
+                                <img src="<?php echo base_url('asset/user/img/icon/newspaper.png') ?>"> <br><br>
                                 <h3>Ini Berita</h3>
                                 <p>
                                     Berita - berita tentang Perum Perindo Cabang Brondong yang mungkin menarik untuk anda baca.

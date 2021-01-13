@@ -3,12 +3,12 @@
   <ol>
     <li>
       <img src="<?php echo base_url()?>assets/ism/image/1609993337266_642147.png">
-    </li>
+    </li><!-- 
     <li>
       <img src="<?php echo base_url()?>assets/ism/image/1609993072358_716372.jpg">
-    </li>
+    </li> -->
     <li>
-      <img src="<?php echo base_url()?>assets/ism/image/1609992902293_288606.png">
+      <img src="<?php echo base_url()?>assets/ism/image/perumm.png">
     </li>
   </ol>
 </div>
@@ -19,7 +19,7 @@
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-100">
                       <img width="300px" height="90px" src="<?php echo base_url('asset/user/img/logo2.png'); ?>"> <br><br>
-                      <h3>Perusahaan Umum Perikanan Indonesia <br> Cabang Brondong</h3>
+                      <h3>Perusahaan Umum (PERUM) Perikanan Indonesia Cabang Brondong</h3>
                       <p>Perum Perikanan Indonesia merupakan salah satu Badan Usaha Milik Negara (BUMN), mempunyai  peranan dan posisi yang sangat strategis dalam upaya mendukung visi dan misi Pemerintah khususnya kementerian BUMN untuk peningkatan kualitas pengelolaan perusahaan yang transparan dan akuntable; mendorong pertumbuhan ekonomi regional dan nasional serta pendapatan negara dan pembangunan nasional melalui pembangunan dan pengembangan sektor kelautan dan perikanan.</p>
                     </div>
                 </div>

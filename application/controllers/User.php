@@ -33,6 +33,126 @@ class User extends CI_Controller
 		$this->load->view('user/footer');
 	}
 
+	public function profil()
+	{
+		# code...
+		$data['title'] = "Profil Perusahaan";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/profil');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
+	public function produk()
+	{
+		# code...
+		$data['title'] = "Produk dan Jasa";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/produk');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
+	public function gallery()
+	{
+		# code...
+		$data['title'] = "Gallery";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/gallery');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
+	public function budaya_kerja()
+	{
+		# code...
+		$data['title'] = "Budaya Pekerjaan";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/budaya_kerja');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
+	public function proses_bisnis()
+	{
+		# code...
+		$data['title'] = "Budaya Pekerjaan";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/proses_bisnis');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
+	public function wilayah_kerja()
+	{
+		# code...
+		$data['title'] = "Budaya Pekerjaan";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/wilayah_kerja');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
+	public function pelabuhan()
+	{
+		# code...
+		$data['title'] = "Budaya Pekerjaan";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/pelabuhan');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
+	public function produksi()
+	{
+		# code...
+		$data['title'] = "Budaya Pekerjaan";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/produksi');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
+	public function fasilitas()
+	{
+		# code...
+		$data['title'] = "Budaya Pekerjaan";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/fasilitas');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
+	public function masterplan()
+	{
+		# code...
+		$data['title'] = "Budaya Pekerjaan";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/masterplan');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
 	public function detail_berita($id)
 	{
 		# code...
@@ -120,42 +240,6 @@ class User extends CI_Controller
 
 		$this->load->view('user/header', $data);
 		$this->load->view('user/donasi');
-		$this->load->view('user/footer');
-	}
-
-	// =========================================================================
-
-	public function profil()
-	{
-		# code...
-		$data['title'] = "Profil Perusahaan";
-
-		$this->load->view('user/header', $data);
-		$this->load->view('user/profil');
-		$this->load->view('user/footer');
-	}
-
-	// =========================================================================
-
-	public function produk()
-	{
-		# code...
-		$data['title'] = "Produk dan Jasa";
-
-		$this->load->view('user/header', $data);
-		$this->load->view('user/produk');
-		$this->load->view('user/footer');
-	}
-
-	// =========================================================================
-
-	public function gallery()
-	{
-		# code...
-		$data['title'] = "Gallery";
-
-		$this->load->view('user/header', $data);
-		$this->load->view('user/gallery');
 		$this->load->view('user/footer');
 	}
 
