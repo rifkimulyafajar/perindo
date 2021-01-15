@@ -1,5 +1,5 @@
-        <div class="bradcam_area breadcam_bg overlay2">
-            <h3>Berita Hari Ini</h3>
+        <div class="bradcam_area breadcam_bg">
+            <h3>Berita</h3>
         </div>
         <!-- bradcam_area_end -->
 
@@ -11,14 +11,14 @@
                         <div class="col-xl-12">
                             <div class="section_title text-center mb-100">
                                 <img src="<?php echo base_url('asset/user/img/icon/newspaper.png') ?>"> <br><br>
-                                <h3>Ini Berita</h3>
+                                <h3>Berita</h3>
                                 <p>
                                     Berita - berita tentang Perum Perindo Cabang Brondong yang mungkin menarik untuk anda baca.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-content" id="myTabContent">
+<!--                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <div class="row">
 
@@ -48,7 +48,7 @@
 
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

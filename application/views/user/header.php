@@ -34,26 +34,27 @@
                     <div class="row align-items-center no-gutters">
                         <div class="col-xl-3 col-lg-3">
                             <div class="logo-img">
-                                <a href="index.html">
+                                <a href="<?php echo base_url('user') ?>">
                                 <img width="154px" height="40px" src="<?php echo base_url('asset/user/img/logo2.png'); ?>" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-7">
-                            <div class="main-menu  d-none d-lg-block">
+                            <div class="main-menu d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="<?php echo base_url('user/index') ?>">home</a></li>
+                                        <li><a class="active" href="<?php echo base_url('user') ?>">home</a></li>
                                         <li><a href="#">Tentang Kami <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="<?php echo base_url('user/profil')?>">Profil Perusahaan</a></li>
+                                                <li><a href="<?php echo base_url('user/struktur')?>">Struktur Organisasi</a></li>
                                                 <li><a href="<?php echo base_url('user/budaya_kerja') ?>">Budaya Kerja</a></li>
                                                 <li><a href="<?php echo base_url('user/proses_bisnis')?>">Proses Bisnis</a></li>
                                                 <li><a href="<?php echo base_url('user/wilayah_kerja')?>">Wilayah Kerja</a></li>
                                                 <li><a href="<?php echo base_url('user/pelabuhan')?>">Pelabuhan & Fasilitas</a></li>
-                                                <li><a href="<?php echo base_url('user/produksi')?>">Produksi & Destribusi</a></li>
+                                                <li><a href="<?php echo base_url('user/produksi')?>">Produksi & Distribusi</a></li>
                                                 <li><a href="<?php echo base_url('user/fasilitas')?>">Fasilitas & Unit Produksi</a></li>
-                                                <li><a href="<?php echo base_url('user/masterplan')?>">Master Plan PPN Brondong</a></li>
+                                                <li><a href="<?php echo base_url('user/masterplan')?>">Master Plan PPN/Perindo Brondong</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="<?php echo base_url('user/produk')?>">Produk dan Jasa</a></li>

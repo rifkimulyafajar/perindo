@@ -914,7 +914,7 @@ h3 {
 
 /* line 53, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room .socail_links ul li a {
-  color: #A8A7A0;
+  color: #383838;
   margin: 0 10px;
   font-size: 15px;
 }
@@ -974,7 +974,7 @@ h3 {
 
 /* line 94, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
+  color: #383838;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 400;
@@ -1050,7 +1050,7 @@ h3 {
 
 /* line 145, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #fff;
+  color: #000;
 }
 
 /* line 149, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
@@ -1636,7 +1636,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
 .footer_bg_1 {
-  background-image: url(../img/banner/bradcam3.png);
+  background-image: url(../img/banner/footer_bg.png);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
@@ -1876,7 +1876,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam4.png);
+  background-image: url(../img/banner/bc.png);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */

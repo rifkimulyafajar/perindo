@@ -43,29 +43,27 @@
                     <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Courses
+                                Tentang Kami
                             </h3>
                             <ul>
-                                <li><a href="#">Wordpress</a></li>
-                                <li><a href="#"> Photoshop</a></li>
-                                <li><a href="#">Illustrator</a></li>
-                                <li><a href="#">Adobe XD</a></li>
-                                <li><a href="#">UI/UX</a></li>
+                                <li><a href="<?php echo base_url('user/profil')?>">Profil Perusahaan</a></li>
+                                <li><a href="<?php echo base_url('user/budaya_kerja') ?>">Budaya Kerja</a></li>
+                                <li><a href="<?php echo base_url('user/proses_bisnis')?>">Proses Bisnis</a></li>
+                                <li><a href="<?php echo base_url('user/wilayah_kerja')?>">Wilayah Kerja</a></li>
                             </ul>
 
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Resourches
+                            <h3 class="footer_title text-center">
+                                -
                             </h3>
                             <ul>
-                                <li><a href="#">Free Adobe XD</a></li>
-                                <li><a href="#">Tutorials</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#"> About</a></li>
-                                <li><a href="#"> Contact</a></li>
+                                <li><a href="<?php echo base_url('user/pelabuhan')?>">Pelabuhan & Fasilitas</a></li>
+                                <li><a href="<?php echo base_url('user/produksi')?>">Produksi & Distribusi</a></li>
+                                <li><a href="<?php echo base_url('user/fasilitas')?>">Fasilitas & Unit Produksi</a></li>
+                                <li><a href="<?php echo base_url('user/masterplan')?>">Master Plan PPN/Perindo Brondong</a></li>
                             </ul>
                         </div>
                     </div>
@@ -75,9 +73,9 @@
                                 Alamat
                             </h3>
                             <p>
-                                200, D-block, Green lane USA <br>
-                                +10 367 467 8934 <br>
-                                edumark@contact.com
+                                Jl. Raya Brondong 17 Lamongan <br> Jawa Timur, 62263<br>
+                                (0322) 661544 / Fax : (0322) 663590<br>
+                                perumperindo.cabangbrondong@gmail.com
                             </p>
                         </div>
                     </div>

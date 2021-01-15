@@ -1,4 +1,4 @@
-		<div class="bradcam_area breadcam_bg overlay2">
+		<div class="bradcam_area breadcam_bg">
             <h3>Budaya Kerja</h3>
         </div>
         <!-- bradcam_area_end -->
@@ -60,7 +60,7 @@
 	            	<div class="col-md-5">
 	                	<div class="section_title">
 	                		<h3 class="text-center">Tujuan</h3>
-		                	<ul class="unordered-list">
+		                	<ul class="unordered-list text-justify">
 		            			<li>Budaya menciptakan pembedaan yang jelas antara satu organisasi dan yang lain.</li>
 		            			<li>Budaya membawa suatu rasa identitas bagi anggota-anggota organisasi.</li>
 		            			<li>Budaya mempermudah timbulnya komitmen pada sesuatu yang telah lebih luas daripada kepentingan diri individual seseorang.</li>
@@ -73,7 +73,7 @@
 	                <div class="col-md-5">
 	                	<div class="section_title">
 	                		<h3 class="text-center">Fungsi</h3>
-		                	<ul class="unordered-list">
+		                	<ul class="unordered-list text-justify">
 		            			<li>Sebagai batas pembeda terhadap lingkungan.</li>
 		            			<li>Sebagai perekat bagi karyawan dalam suatu perusahaan.</li>
 		            			<li>Mempromosikan stabilitas sistem sosial.</li>
@@ -87,6 +87,23 @@
 	                	</div>
 	                </div>
 	            </div>
+	            <br><br><br>
+
+	            <div class="row">
+	            	<div class="col-xl-2"></div>
+	            	<div class="col-xl-8 section_title">
+	            		<h3 class="text-center">Budaya Perusahaan</h3>
+	            		<ul class="unordered-list text-justify">
+		            		<li><b>Intregitas:</b> selalu menjaga kesesuaian antara pikiran, ucapan dan perbuatan serta menjunjung tinggi nilai kejujuran</li>
+		            		<li><b>Semangat:</b> selalu bersungguh-sungguh dalam melaksanakan setiap pekerjaan untuk mencapai suatu tujuan</li>
+		            		<li><b>Kebersamaan:</b> saling menghargai saling percaya dengan membangun sinergi dan menjunjung tinggi kebersamaan</li>
+		            		<li><b>Profesional:</b> melaksanakan tugas sesuai keahlian,  komitmen, tanggung jawab dan dapat diandalkan untuk memberikan hasil yang terbaik untuk perusahaan</li>
+		            		<li><b>Visioner:</b> memiliki pandangan yang jauh ke depan untuk menyelesaikan masalah dan antisipasinya dan membuat ide baru serta melakukan perbaikan terus menerus</li>
+						</ul>
+	            	</div>
+	            	<div class="col-xl-2"></div>
+	            </div>
+
 	        </div>
 	    </div>
 

@@ -1,5 +1,5 @@
-		<div class="bradcam_area breadcam_bg overlay2">
-            <h3>Master Plan PPN Brondong</h3>
+		<div class="bradcam_area breadcam_bg">
+            <h3>Master Plan PPN/Perindo Brondong</h3>
         </div>
         <!-- bradcam_area_end -->
 
@@ -9,9 +9,10 @@
 	                <div class="col-xl-12">
 	                    <div class="section_title text-center mb-100">
 	                    	<img src="<?php echo base_url('asset/user/img/icon/plan.png') ?>"> <br><br>
-	                        <h3>Master Plan PPN Brondong</h3>
-	                        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-	                        </p>
+	                        <h3>Master Plan PPN/Perindo Brondong</h3>
+	                        <a href="<?php echo base_url('asset/user/img/masterplan.png') ?>" class="img-pop-up">
+	                        	<img width="100%" height="100%" src="<?php echo base_url('asset/user/img/masterplan.png') ?>">
+	                        </a>
 	                    </div>
 	                </div>
 

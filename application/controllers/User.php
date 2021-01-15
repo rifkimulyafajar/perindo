@@ -45,6 +45,18 @@ class User extends CI_Controller
 
 	// =========================================================================
 
+	public function struktur()
+	{
+		# code...
+		$data['title'] = "Struktur Organisasi";
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/struktur');
+		$this->load->view('user/footer');
+	}
+
+	// =========================================================================
+
 	public function produk()
 	{
 		# code...

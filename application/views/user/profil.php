@@ -1,4 +1,4 @@
-		<div class="bradcam_area breadcam_bg overlay2">
+		<div class="bradcam_area breadcam_bg">
             <h3>Profil Perusahaan</h3>
         </div>
         <!-- bradcam_area_end -->
@@ -8,7 +8,7 @@
 	            <div class="row">
 	                <div class="col-xl-12">
 	                    <div class="section_title text-center mb-100">
-	                    	<img src="<?php echo base_url('asset/user/img/icon/website.png') ?>"> <br><br>
+	                    	<img width="300px" height="90px" src="<?php echo base_url('asset/user/img/logo2.png') ?>"> <br><br>
 	                        <h3>Perusahaan Umum (PERUM) Perikanan Indonesia Cabang Brondong</h3>
 	                        <p>Perusahaan Umum Perikanan  Indonesia (Perum Perindo)  yang sebelumnya bernama  Perusahaan Umum Prasarana  Perikanan Samudera (Perum PPS)  merupakan Badan Usaha Milik  Negara (BUMN) yang didirikan  berdasarkan Peraturan Pemerintah  (PP) Nomor 2 Tahun 1990 Tentang Perusahaan Umum (Perum) Prasarana Perikanan Samudera, yang  diatur kembali dengan Peraturan  Pemerintah Nomor 23 Tahun 2000 Tentang Perusahaan Umum (Perum) Prasarana Perikanan Samudera.</p> <br>
 
@@ -26,7 +26,7 @@
 	            		<div class="section_title">
 	            			<ul class="unordered-list" style="text-align: justify;">
 		            			<h3>VISI</h2>
-		            			Menjadi Perusahaan Perikanan yang  Tangguh, Terpercaya dan Penggerak  Pertumbuhan Ekonomi.
+		            			<li>Menjadi Perusahaan Perikanan yang  Tangguh, Terpercaya dan Penggerak  Pertumbuhan Ekonomi.</li>
 		            		</ul>
 	            		</div>
 	            	</div>
