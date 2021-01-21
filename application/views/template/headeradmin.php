@@ -10,7 +10,7 @@
     <link rel="icon" href="<?php echo base_url('asset/user/img/logo2.png') ?>" type="image/ico" />
    
 
-    <title>Perumahan Perikanan Indonesia | <?= $title ?></title>
+    <title>Perum Perindo | <?= $title ?></title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="<?php echo base_url('assetsadmin/vendors/bootstrap/dist/css/bootstrap.min.css') ?>">
@@ -38,7 +38,7 @@
             <div class="col-md-3 left_col">
                 <div class="left_col scroll-view">
                     <div class="navbar nav_title" style="border: 0;">
-                        <a href="" class="site_title"><i class="fa fa-venus-mars"></i>&nbsp;<span>Admin SexEdu</span></a>
+                        <a href="" class="site_title"><img width="200px" height="50px" src="<?php echo base_url('asset/user/img/logo2.png'); ?>" alt=""></a>
                     </div>
 
                     <div class="clearfix"></div>
@@ -48,47 +48,14 @@
                         <div class="menu_section">
                             <ul class="nav side-menu">
                                 <li><a href="<?= base_url(); ?>admin/index"> <i class="fa fa-home"></i>Dashboard</a></li>
-                                <li><a><i class="fa fa-edit"></i> Konten <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu">
-                                        <li><a href="<?= base_url(); ?>admin/data_artikel">Artikel</a></li>
-                                        <li><a href="<?= base_url(); ?>admin/data_berita">Berita</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="<?= base_url(); ?>admin/data_kalender"><i class="fa fa-table"></i> Kalender Kesuburan </a></li>
-                                <li><a><i class="fa fa-bar-chart-o"></i> Forum Diskusi <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu">
-                                        <li><a href="<?= base_url(); ?>admin/data_topik">Topik Diskusi</a></li>
-                                        <li><a href="<?= base_url(); ?>admin/data_detailDiskusi">Detail diskusi</a></li>
-                                    </ul>
-                                </li>
-                                <!-- <li><a href="<?= base_url(); ?>admin/data_Donasi"><i class="fa fa-clone"></i>Donasi</a></li> -->
-                                <li><a><i class="fa fa-edit"></i> Donasi <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu">
-                                        <li><a href="<?= base_url(); ?>admin/data_tujuan">Tujuan Donasi</a></li>
-                                        <li><a href="<?= base_url(); ?>admin/data_Donasi">Donasi</a></li>
-                                    </ul>
+                                <li><a href="<?= base_url(); ?>admin/data_berita"><i class="fa fa-edit"></i>Berita</a></li>
+                                <li><a href="<?= base_url(); ?>admin/data_gallery"><i class="fa fa-picture-o"></i>Gallery</a></li>
+                                <li><a href="<?= base_url(); ?>admin/data_produk"><i class="fa fa-ship"></i>Produk</a></li>
                             </ul>
                         </div>
 
                     </div>
-                    <!-- /sidebar menu -->
-
-                    <!-- /menu footer buttons -->
-                    <div class="sidebar-footer hidden-small">
-                        <!-- <a data-toggle="tooltip" data-placement="top" title="Settings">
-              <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-            </a>
-            <a data-toggle="tooltip" data-placement="top" title="FullScreen">
-              <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
-            </a>
-            <a data-toggle="tooltip" data-placement="top" title="Lock">
-              <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
-            </a>
-            <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
-              <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
-            </a> -->
-                    </div>
-                    <!-- /menu footer buttons -->
+                    
                 </div>
             </div>
 
@@ -125,7 +92,7 @@
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
 
-                                                <button type="button" class="btn btn-danger"><a href="<?= base_url(); ?>admin/logout">Log out</a></button>
+                                                <a type="button" class="btn btn-danger" href="<?= base_url(); ?>admin/logout">Log out</a>
                                             </div>
                             </li>
 

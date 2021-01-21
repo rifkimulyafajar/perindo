@@ -40,8 +40,6 @@
    <!-- Custom Theme Scripts -->
    <script src="<?php echo base_url('assetsadmin/build/js/custom.min.js') ?>"></script>
 
-   <script src="<?php echo base_url('assetsadmin/jquery/jquery-2.2.3.min.js') ?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('assetsadmin/js/bootstrap.js') ?>"></script>
 	<script src="<?php echo base_url('assetsadmin/ckeditor/ckeditor.js')?>"></script>
 	<script type="text/javascript">
 	  $(function () {

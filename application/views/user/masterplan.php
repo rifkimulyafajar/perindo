@@ -9,9 +9,15 @@
 	                <div class="col-xl-12">
 	                    <div class="section_title text-center mb-100">
 	                    	<img src="<?php echo base_url('asset/user/img/icon/plan.png') ?>"> <br><br>
-	                        <h3>Master Plan PPN/Perindo Brondong</h3>
+	                        <h3>Master Plan PPN/Perindo Brondong</h3> <br><br>
 	                        <a href="<?php echo base_url('asset/user/img/masterplan.png') ?>" class="img-pop-up">
 	                        	<img width="100%" height="100%" src="<?php echo base_url('asset/user/img/masterplan.png') ?>">
+	                        </a>
+
+	                        <br><br><br><br>
+
+	                        <a href="<?php echo base_url('asset/user/img/masterplan-3d.jpg') ?>" class="img-pop-up">
+	                        	<img width="100%" height="100%" src="<?php echo base_url('asset/user/img/masterplan-3d.jpg') ?>">
 	                        </a>
 	                    </div>
 	                </div>

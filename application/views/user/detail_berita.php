@@ -1,4 +1,5 @@
-		<div class="bradcam_area breadcam_bg overlay2">
+		<div class="bradcam_area breadcam_bg">
+			<h3>&nbsp;</h3>
 		</div>
 		<!-- bradcam_area_end -->
 

@@ -17,47 +17,42 @@ class user_model extends CI_Model
     }
 
     // ====================== BERITA ===================================================
+    
 
-    public function getAllartikel()
+    // public function getAllTanggapan($id)
+    // {
+    //     # code...
+    //     $query = $this->db->get_where('diskusi', array('id_topik' => $id));
+    //     return $query->result_array();
+    // }
+
+    // public function tambah_tanggapan($id)
+    // {
+    //     # code...
+    //     $this->id_diskusi = uniqid();
+
+    //     $data = [
+    //         "id_topik" => $this->input->post('id_topik', true),
+    //         "nama" => $this->input->post('nama', true),
+    //         "pembahasan" => $this->input->post('pembahasan', true),
+    //         "tanggal" => $this->input->post('tanggal', true)
+    //     ];
+
+    //     $this->db->insert('diskusi', $data);
+    // }
+
+    // ====================== GALLERY ==================================================
+    public function getAllGallery()
     {
-        $query = $this->db->get('artikel');
-        return $query->result_array();
+        $query = $this->db->get('gallery');
+        return $query->result_array(); 
     }
 
-    public function getArtikelById($id)
+    // ====================== PRODUK ==================================================
+    public function getAllProduk()
     {
-        $query = $this->db->get_where('artikel', array('id_artikel' => $id));
-        return $query->row_array();
+        $query = $this->db->get('produk');
+        return $query->result_array(); 
     }
 
-    public function getKategori($kategori)
-    {
-        # code...
-        $query = $this->db->get_where('artikel', array('id_kategori' => $kategori));
-        return $query->result_array();
-    }
-
-    // ====================== ARTIKEL ==================================================
-
-    public function getAllTanggapan($id)
-    {
-        # code...
-        $query = $this->db->get_where('diskusi', array('id_topik' => $id));
-        return $query->result_array();
-    }
-
-    public function tambah_tanggapan($id)
-    {
-        # code...
-        $this->id_diskusi = uniqid();
-
-        $data = [
-            "id_topik" => $this->input->post('id_topik', true),
-            "nama" => $this->input->post('nama', true),
-            "pembahasan" => $this->input->post('pembahasan', true),
-            "tanggal" => $this->input->post('tanggal', true)
-        ];
-
-        $this->db->insert('diskusi', $data);
-    }
 }

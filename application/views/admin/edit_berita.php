@@ -30,7 +30,7 @@
                 <div class="form-group">
                     <label for="foto">Gambar</label>
                     <input type="file" class="form-control" id="foto" name="foto">
-                    <p>Format .jpg, .png Max Size : 500KB</p>
+                    <p>Format .png, .jpg, .jpeg | </p>
                 </div>
                 <div class="form-group">
                     <label for="sumber">Sumber</label>

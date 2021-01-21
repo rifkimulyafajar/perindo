@@ -12,37 +12,14 @@
 	                    	<h3>Produksi & Distribusi</h3>
 	                    </div>
 	                </div>
+
 	                <div class="col-xl-12 text-center">
 	                	<h1>Logistik & Jalur Distribusi</h1> <br>
-	                	<h4>Penangkapan Ikan</h4> <br>
-	                	<img src="<?php echo base_url('asset/user/img/icon/tangkap_ikan.png') ?>"> <br><br>
-	                	<img src="<?php echo base_url('asset/user/img/icon/arrow-down.png') ?>"> <br><br>
-	                	<h4>Pelabuhan</h4> <br>
-	                	<img src="<?php echo base_url('asset/user/img/icon/pelabuhan.png') ?>"> <br><br>
 	                </div>
 
-	                <div class="col-xl-5"></div>
-	                <div class="col-xl-1">
-	                	<img src="<?php echo base_url('asset/user/img/icon/arrow-diagonal-left.png') ?>">
-	                </div>
-	                <div class="col-xl-1">
-	                	<img src="<?php echo base_url('asset/user/img/icon/arrow-diagonal-right.png') ?>">
-	                </div>
-	                <div class="col-xl-5"></div>
-
-	                <div class="col-xl-3"></div>
-	                <div class="col-xl-2 text-center">
-	                	<br>
-	                	<h4>Produk Beku</h4> <br>
-	                	<img src="<?php echo base_url('asset/user/img/icon/produk-beku.png') ?>">
-	                </div>
-	                <div class="col-xl-2"></div>
-	                <div class="col-xl-2 text-center">
-	                	<br>
-	                	<h4>Produk Segar</h4> <br>
-	                	<img src="<?php echo base_url('asset/user/img/icon/produk-segar.png') ?>">
-	                </div>
-	                <div class="col-xl-3"></div>
+	            	<div class="col-xl-12 text-center">
+	            		<img src="<?php echo base_url('asset/user/img/produksi.png') ?>" width="100%" height="100%">
+	            	</div>
 	            </div>
 
 	            <br><br><br><br>

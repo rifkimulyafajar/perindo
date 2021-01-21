@@ -55,29 +55,34 @@ class User extends CI_Controller
 		$this->load->view('user/footer');
 	}
 
-	// =========================================================================
-
-	public function produk()
-	{
-		# code...
-		$data['title'] = "Produk dan Jasa";
-
-		$this->load->view('user/header', $data);
-		$this->load->view('user/produk');
-		$this->load->view('user/footer');
-	}
-
+	
 	// =========================================================================
 
 	public function gallery()
 	{
 		# code...
 		$data['title'] = "Gallery";
+		$data['gallery'] = $this->user_model->getAllGallery();
 
 		$this->load->view('user/header', $data);
 		$this->load->view('user/gallery');
 		$this->load->view('user/footer');
 	}
+
+
+	// =========================================================================
+
+	public function produk()
+	{
+		# code...
+		$data['title'] = "Produk dan Jasa";
+		$data['produk'] = $this->user_model->getAllProduk();
+
+		$this->load->view('user/header', $data);
+		$this->load->view('user/produk');
+		$this->load->view('user/footer');
+	}
+
 
 	// =========================================================================
 
@@ -138,6 +143,8 @@ class User extends CI_Controller
 		$this->load->view('user/produksi');
 		$this->load->view('user/footer');
 	}
+
+	
 
 	// =========================================================================
 
@@ -322,6 +329,8 @@ class User extends CI_Controller
 			redirect('user/detail_diskusi/' . $id, 'refresh');
 		}
 	}
+
+
 
 	// =========================================================================
 

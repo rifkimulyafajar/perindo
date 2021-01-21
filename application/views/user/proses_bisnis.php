@@ -15,9 +15,10 @@
 	                        </p>
 	                    </div>
 	                </div>
+	            </div>
 
 	                <!-- konten -->
-	                <div class="col-xl-1"></div>
+	                <!-- <div class="col-xl-1"></div>
 	            	<div class="col-xl-2">
 	                    <div class="single_course text-center">
 	                        <div class="icon">
@@ -83,7 +84,13 @@
 	                        <img src="<?php echo base_url('asset/user/img/icon/turn-left.png') ?>"> <br><br>
 	                    </div>
 	                </div>
-	            </div>
+	            </div> -->
+
+		        <div class="row">
+		            <div class="col-xl-12 text-center">
+		            	<img width="100%" height="100%" src="<?php echo base_url('asset/user/img/proses-bisnis.png') ?>">
+		            </div>
+		        </div>
 
 	            <br><br><br><br>
 	            <div class="row">

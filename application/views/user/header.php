@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Perumahan Perikanan Indonesia | <?php echo $title; ?></title>
+    <title>Perum Perindo | <?php echo $title; ?></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="<?php echo base_url('asset/user/img/logo2.png') ?>" type="image/ico" />
@@ -43,7 +43,7 @@
                             <div class="main-menu d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="<?php echo base_url('user') ?>">home</a></li>
+                                        <li><a href="<?php echo base_url('user') ?>">home</a></li>
                                         <li><a href="#">Tentang Kami <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="<?php echo base_url('user/profil')?>">Profil Perusahaan</a></li>

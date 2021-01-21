@@ -18,7 +18,7 @@
                             </div>
                         </div>
                     </div>
-<!--                     <div class="tab-content" id="myTabContent">
+                <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <div class="row">
 
@@ -48,7 +48,7 @@
 
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>

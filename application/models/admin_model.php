@@ -5,119 +5,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class admin_model extends CI_Model
 {
 
-    // DASBOARD
-    public function hitung_artikel()
-    {
-        return $this->db->count_all('artikel');
-    }
-
-    public function hitung_berita()
-    {
-        return $this->db->count_all('berita');
-    }
-
-    public function hitung_kalender()
-    {
-        return $this->db->count_all('kalender');
-    }
-
-    public function hitung_diskusi()
-    {
-        return $this->db->count_all('diskusi');
-    }
-
-    public function hitung_donasi()
-    {
-        return $this->db->count_all('donasi');
-    }
-
-    public function hitung_alluser()
-    {
-        return $this->db->count_all('user');
-    }
-
-    public function hitung_topik()
-    {
-        return $this->db->count_all('topik');
-    }
-
-    public function hitung_admin()
-    {
-        return $this->db->get_where('user', array('level' => '1'))->num_rows();
-    }
-
-    public function hitung_user()
-    {
-        return $this->db->get_where('user', array('level' => '2'))->num_rows();
-    }
-
-    // ARTIKEL
-    public function getAllartikel()
-    {
-        $query = $this->db->get('artikel');
-        return $query->result_array();
-    }
-
-    public function getArtikelById($id)
-    {
-        $query = $this->db->get_where('artikel', array('id_artikel' => $id));
-        return $query->row_array();
-    }
-
-    public function getKategori()
-    {
-        $query = $this->db->get('kategori_artikel');
-        return $query->result_array();
-    }
-
-    public function tambah_artikel()
-    {
-        $this->id_artikel = uniqid();
-        $data = [
-            "judul" => $this->input->post('judul', true),
-            "id_kategori" => $this->input->post('id_kategori', true),
-            "Tanggal" => $this->input->post('Tanggal', true),
-            "gambar" => $this->uploadImage(),
-            "sumber" => $this->input->post('sumber', true),
-            "konten" => $this->input->post('konten', true),
-        ];
-        $this->db->insert('artikel', $data);
-    }
-
-    public function uploadImage()
-    {
-        $config['upload_path'] = './upload/artikel/';
-        $config['allowed_types'] = 'gif|jpg|png';
-        $config['file_name'] = $this->id_artikel;
-        $config['overwrite'] = true;
-        // $config['max_size'] = 1024;
-
-        $this->upload->initialize($config);
-        $this->load->library('upload', $config);
-        if ($this->upload->do_upload('gambar')) {
-            return $this->upload->data("file_name");
-        }
-    }
-
-    public function edit_artikel()
-    {
-        $post = $this->input->post();
-        $this->id_artikel = $post["id_artikel"];
-        $this->judul = $post["judul"];
-        $this->id_kategori = $post["id_kategori"];
-        $this->tanggal = $post["tanggal"];
-        $this->gambar = $this->uploadimage();
-        $this->sumber = $post["sumber"];
-        $this->konten = $post["konten"];
-
-        $this->db->update('artikel', $this, array('id_artikel' => $post['id_artikel']));
-    }
-
-    public function hapus_artikel($id)
-    {
-        return $this->db->delete('artikel', array("id_artikel" => $id));
-    }
-
     // BERITA
     public function getAllBerita()
     {
@@ -177,156 +64,121 @@ class admin_model extends CI_Model
         return $this->db->delete('berita', array("id_berita" => $id));
     }
 
-    // TOPIK DISKUSI
-    public function getAllTopik()
+
+
+    // GALLERY
+    public function getAllGallery()
     {
-        $query = $this->db->get('topik');
+        $query = $this->db->get('gallery');
         return $query->result_array();
     }
 
-    public function getTopikById($id)
+    public function getGalleryById($id)
     {
-        $query = $this->db->get_where('topik', array('id_topik' => $id));
+        $query = $this->db->get_where('gallery', array('id_gambar' => $id));
         return $query->row_array();
     }
 
-    public function tambah_topik()
+
+    public function tambah_gallery()
     {
-        $this->id_topik = uniqid();
+        $this->id_gambar = uniqid();
         $data = [
-            "topik" => $this->input->post('topik', true),
-            "nama" => $this->input->post('nama', true),
-            "tanggal" => $this->input->post('tanggal', true),
+            "ket" => $this->input->post('ket', true),
+            "gambar" => $this->uploadImage3(),
         ];
-        $this->db->insert('topik', $data);
+        $this->db->insert('gallery', $data);
     }
 
-    public function edit_topik()
+    public function uploadImage3()
+    {
+        $config['upload_path'] = './upload/galeri/';
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['file_name'] = $this->id_gambar;
+        $config['overwrite'] = true;
+        // $config['max_size'] = 1024;
+
+        $this->load->library('upload', $config);
+        $this->upload->initialize($config);
+       
+        if ($this->upload->do_upload('gambar')) {
+            return $this->upload->data("file_name");
+        }
+    }
+
+    public function edit_gallery()
     {
         $post = $this->input->post();
-        $this->id_topik = $post["id_topik"];
-        $this->topik = $post["topik"];
-        $this->tanggal = $post["tanggal"];
+        $this->id_gambar = $post["id_gambar"];
+        $this->ket = $post["ket"];
+        $this->gambar = $this->uploadimage3();
 
-        $this->db->update('topik', $this, array('id_topik' => $post['id_topik']));
+
+        $this->db->update('gallery', $this, array('id_gambar' => $post['id_gambar']));
     }
 
-    public function hapus_topik($id)
+    public function hapus_gallery($id)
     {
-        return $this->db->delete('topik', array("id_topik" => $id));
+        return $this->db->delete('gallery', array("id_gambar" => $id));
     }
 
-    //TUJUAN DONASI
-    public function getAllTujuan()
+
+
+    // PRODUK DAN JASA
+    public function getAllProduk()
     {
-        $query = $this->db->get('tujuan_donasi');
+        $query = $this->db->get('produk');
         return $query->result_array();
     }
 
-    public function getTujuanById($id)
+    public function getProdukById($id)
     {
-        $query = $this->db->get_where('tujuan_donasi', array('id_tujuan' => $id));
+        $query = $this->db->get_where('produk', array('id_produk' => $id));
         return $query->row_array();
     }
 
-    public function tambah_tujuan()
+
+    public function tambah_produk()
     {
-        $this->id_tujuan = uniqid();
+        $this->id_produk = uniqid();
         $data = [
             "nama" => $this->input->post('nama', true),
-            "alamat" => $this->input->post('alamat', true),
-            "deskripsi" => $this->input->post('deskripsi', true),
-            "totaldana" => $this->input->post('totaldana', true),
-            "image" => $this->uploadImage2(),
-            "bni" => $this->input->post('bni', true),
-            "bri" => $this->input->post('bri', true),
-            "bca" => $this->input->post('bca', true),
-            "linkaja" => $this->input->post('linkaja', true),
-            "dana" => $this->input->post('dana', true),
-            "mandiri" => $this->input->post('mandiri', true),
+            "istilah" => $this->input->post('istilah', true),
+            "gambar" => $this->uploadImage4(),
         ];
-        $this->db->insert('tujuan_donasi', $data);
+        $this->db->insert('produk', $data);
     }
 
-    public function uploadImage2()
+
+    public function uploadImage4()
     {
-        $config['upload_path'] = './upload/tujuandonasi/';
+        $config['upload_path'] = './upload/produk/';
         $config['allowed_types'] = 'gif|jpg|png';
-        $config['file_name'] = $this->id_tujuan;
+        $config['file_name'] = $this->id_produk;
         $config['overwrite'] = true;
         // $config['max_size'] = 1024;
 
         $this->upload->initialize($config);
         $this->load->library('upload', $config);
-        if ($this->upload->do_upload('image')) {
+        if ($this->upload->do_upload('gambar')) {
             return $this->upload->data("file_name");
         }
     }
 
-    public function edit_tujuan()
+    public function edit_produk()
     {
         $post = $this->input->post();
-        $this->id_tujuan = $post["id_tujuan"];
+        $this->id_produk = $post["id_produk"];
         $this->nama = $post["nama"];
-        $this->alamat = $post["alamat"];
-        $this->deskripsi = $post["deskripsi"];
-        $this->totaldana = $post["totaldana"];
-        $this->image = $this->uploadimage2();
-        $this->bni = $post["bni"];
-        $this->bri = $post["bri"];
-        $this->bca = $post["bca"];
-        $this->linkaja = $post["linkaja"];
-        $this->dana = $post["dana"];
-        $this->mandiri = $post["mandiri"];
+        $this->istilah = $post["istilah"];
+        $this->gambar = $this->uploadimage4();
 
-        $this->db->update('tujuan_donasi', $this, array('id_tujuan' => $post['id_tujuan']));
+        $this->db->update('produk', $this, array('id_produk' => $post['id_produk']));
     }
 
-    public function hapus_tujuan($id)
+    public function hapus_produk($id)
     {
-        return $this->db->delete('tujuan_donasi', array("id_tujuan" => $id));
+        return $this->db->delete('produk', array("id_produk" => $id));
     }
 
-    //DONASI
-    public function getAllDonasi()
-    {
-        $query = $this->db->get('donasi');
-        return $query->result_array();
-    }
-
-    public function hapus_donasi($id)
-    {
-        return $this->db->delete('donasi', array("id_donasi" => $id));
-    }
-
-    public function FilterDonasi($bulan)
-    {
-        # code...
-        $query = $this->db->get_where('donasi', array('MONTH(tgl_donasi)' => $bulan));
-        return $query->result_array();
-    }
-
-    //KALENDER
-    public function getAllKalender()
-    {
-        $query = $this->db->get('kalender');
-        return $query->result_array();
-    }
-
-    public function hapus_kalender($id)
-    {
-        return $this->db->delete('kalender', array("id_kalender" => $id));
-    }
-
-    //DETAIL DISKUSI
-    public function getAllDetailDiskusi()
-    {
-        $query = $this->db->get('diskusi');
-        return $query->result_array();
-    }
-
-    public function hapus_diskusi($id)
-    {
-        return $this->db->delete('diskusi', array("id_diskusi" => $id));
-    }
 }

@@ -61,7 +61,7 @@
                                                     </div>
                                                     <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                                                        <button type="button" class="btn btn-primary"><a href="<?= base_url(); ?>admin/hapus_berita/<?= $b['id_berita']; ?>">Hapus</a></button>
+                                                        <a type="button" class="btn btn-primary" href="<?= base_url(); ?>admin/hapus_berita/<?= $b['id_berita']; ?>">Hapus</a>
                                                     </div>
                                                 </div>
                                             </div>

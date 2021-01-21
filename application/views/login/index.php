@@ -15,7 +15,6 @@
 
 <body>
 
-
 	<div class="wrapper">
 		<?php if (validation_errors()) : ?>
 			<div class="alert alert-danger" role="alert">
@@ -24,8 +23,11 @@
 		<?php endif; ?>
 		<div class="inner">
 			<?= form_open('login/proses_login') ?>
-			<img src="<?php echo base_url('asset/register/images/image-1.png'); ?>" alt="" class="image-1">
-			<h3>Login?</h3>
+			<img src="<?php echo base_url('asset/register/images/img-1.png'); ?>" alt="" class="image-1">
+			<div class="text-center">
+				<img src="<?php echo base_url('asset/user/img/logo2.png'); ?>" width="300px" height="90px"> <br><br>
+			</div>
+			<h3>Login Admin</h3>
 			<div class="form-holder">
 				<span class="lnr lnr-user"></span>
 				<input type="text" class="form-control" name='uname1' placeholder="Username" data-validate="Username is required">
@@ -33,14 +35,6 @@
 			<div class="form-holder">
 				<span class="lnr lnr-lock"></span>
 				<input type="password" class="form-control" name='pwd1' placeholder="Password" data-validate="Password is required">
-			</div>
-			<div class="form-holder">
-				<span></span>
-				<!-- <a href="<?php echo base_url('register'); ?>">Lupa Password?</a> -->
-			</div>
-			<div class="form-holder">
-				<span></span>
-				<a href="<?php echo base_url('register'); ?>">Register?</a>
 			</div>
 			<button>
 				<span>Login</span>
@@ -55,8 +49,7 @@
 				}
 				?>
 			</div>
-			</form>
-			<img src="<?php echo base_url('asset/register/images/image-2.png'); ?>" alt="" class="image-2">
+
 			<?= form_close(); ?>
 		</div>
 	</div>
