@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<link rel="icon" href="<?php echo base_url('asset/user/img/logo2.png') ?>" type="image/ico" />
 	<title>Login</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
